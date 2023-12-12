@@ -42,8 +42,6 @@
       </ul>
     </li>
     <li><a href="#project-Requirements">Project Requirements</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -115,68 +113,40 @@ To get a local copy up and running follow these simple example steps.
 
 <!-- PROJECT REQUIREMENTS -->
 ## Project Requirements
-- Intial Setup
--- [ x ] Set up body-parsing middleware with the body-parser package.
--- [ x ] Set up CORS middleware with the cors package. You can use the default settings.
--- [ x ] Mount the existing apiRouter at /api. This router will serve as the starting point for all your API routes.
--- [ x ] Start the server listening on the provided PORT. Make sure to use the PORT constant and not a hard-coded number, as this is required for tests to run.
+1. Intial Setup
+- [ x ] Set up body-parsing middleware with the body-parser package.
+- [ x ] Set up CORS middleware with the cors package. You can use the default settings.
+- [ x ] Mount the existing apiRouter at /api. This router will serve as the starting point for all your API routes.
+- [ x ] Start the server listening on the provided PORT. Make sure to use the PORT constant and not a hard-coded number, as this is required for tests to run.
 
-- Minions Routes
--- [ x ] GET /api/minions to get an array of all minions.
--- [ x ] POST /api/minions to create a new minion and save it to the database.
--- [ x ] GET /api/minions/:minionId to get a single minion by id.
--- [ x ] PUT /api/minions/:minionId to update a single minion by id.
--- [ x ] DELETE /api/minions/:minionId to delete a single minion by id.
+2. Minions Routes
+- [ x ] GET /api/minions to get an array of all minions.
+- [ x ] POST /api/minions to create a new minion and save it to the database.
+- [ x ] GET /api/minions/:minionId to get a single minion by id.
+- [ x ] PUT /api/minions/:minionId to update a single minion by id.
+- [ x ] DELETE /api/minions/:minionId to delete a single minion by id.
 
-- Ideas Routes
--- [ x ] GET /api/ideas to get an array of all ideas.
--- [ x ] POST /api/ideas to create a new idea and save it to the database.
--- [ x ] GET /api/ideas/:ideaId to get a single idea by id.
--- [ x ] PUT /api/ideas/:ideaId to update a single idea by id.
--- [ x ] DELETE /api/ideas/:ideaId to delete a single idea by id.
+3. Ideas Routes
+- [x] GET /api/ideas to get an array of all ideas.
+- [x] POST /api/ideas to create a new idea and save it to the database.
+- [x] GET /api/ideas/:ideaId to get a single idea by id.
+- [x] PUT /api/ideas/:ideaId to update a single idea by id.
+- [x] DELETE /api/ideas/:ideaId to delete a single idea by id.
 
-- Meetings Routes
--- [ x ] GET /api/meetings to get an array of all meetings.
--- [ x ] POST /api/meetings to create a new meeting and save it to the database.
--- [ x ] DELETE /api/meetings to delete all meetings from the database.
+4. Meetings Routes
+- [x] GET /api/meetings to get an array of all meetings.
+- [x] POST /api/meetings to create a new meeting and save it to the database.
+- [x] DELETE /api/meetings to delete all meetings from the database.
 
-- Custom Middleware
--- [ x ] Create custom middleware function to ensure that any new or updated idea is worth at least a million dollars.
+5. Custom Middleware
+- [x] Create custom middleware function to ensure that any new or updated idea is worth at least a million dollars.
 
-- Bonus
--- [ x ] Create work routes that allow bosses to add and remove work from their minions' backlogs.
+6. Bonus
+- [x] Create work routes that allow bosses to add and remove work from their minions' backlogs.
 
-See the [open issues](https://github.com/Patchalv/vote-game-app_v4/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+See the [open issues](https://github.com/Patchalv/boss-machine/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
@@ -184,7 +154,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Patrick Alvarez Eades - p.alvarezeades@gmail.com
 
-Project Link: [https://github.com/Patchalv/vote-game-app_v4](https://github.com/Patchalv/vote-game-app_v4)
+Project Link: [https://github.com/Patchalv/boss-machine](https://github.com/Patchalv/boss-machine)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,7 +163,7 @@ Project Link: [https://github.com/Patchalv/vote-game-app_v4](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-A big shout out to [Codecademy](https://www.codecademy.com/) who I'm currently doing the Full-Stack Engeineer career path with. This project was part of my open-ended project for the Front-end engineer component. 
+A big shout out to [Codecademy](https://www.codecademy.com/) who I'm currently doing the Full-Stack Engeineer career path with!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -201,16 +171,16 @@ A big shout out to [Codecademy](https://www.codecademy.com/) who I'm currently d
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Patchalv/vote-game-app_v4.svg?style=for-the-badge
-[contributors-url]: https://github.com/Patchalv/vote-game-app_v4/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Patchalv/vote-game-app_v4.svg?style=for-the-badge
-[forks-url]: https://github.com/Patchalv/vote-game-app_v4/network/members
-[stars-shield]: https://img.shields.io/github/stars/Patchalv/vote-game-app_v4.svg?style=for-the-badge
-[stars-url]: https://github.com/Patchalv/vote-game-app_v4/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Patchalv/vote-game-app_v4.svg?style=for-the-badge
-[issues-url]: https://github.com/Patchalv/vote-game-app_v4/issues
-[license-shield]: https://img.shields.io/github/license/Patchalv/vote-game-app_v4?label=license&style=for-the-badge
-[license-url]: https://github.com/Patchalv/vote-game-app_v4/blob/master/LICENSE.md
+[contributors-shield]: https://img.shields.io/github/contributors/Patchalv/boss-machine.svg?style=for-the-badge
+[contributors-url]: https://github.com/Patchalv/boss-machine/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Patchalv/boss-machine.svg?style=for-the-badge
+[forks-url]: https://github.com/Patchalv/boss-machine/network/members
+[stars-shield]: https://img.shields.io/github/stars/Patchalv/boss-machine.svg?style=for-the-badge
+[stars-url]: https://github.com/Patchalv/boss-machine/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Patchalv/boss-machine.svg?style=for-the-badge
+[issues-url]: https://github.com/Patchalv/boss-machine/issues
+[license-shield]: https://img.shields.io/github/license/Patchalv/boss-machine?label=license&style=for-the-badge
+[license-url]: https://github.com/Patchalv/boss-machine/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/patrickalvarezeades/
 [product-screenshot]: ./public/img/screenshot.png
@@ -222,3 +192,13 @@ A big shout out to [Codecademy](https://www.codecademy.com/) who I'm currently d
 [Redux-url]: https://redux.js.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://react-bootstrap.netlify.app/
+[Express.js]: https://img.shields.io/badge/Express.js-404D59?style=for-the-badge
+[Express-url]: https://expressjs.com/
+[Node.js]: https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white
+[Node-url]: https://nodejs.org/
+[HTML]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[HTML-url]: #
+[CSS]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[CSS-url]: #
+[JavaScript]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
+[JavaScript-url]: #
