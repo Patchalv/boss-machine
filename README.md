@@ -114,17 +114,17 @@ To get a local copy up and running follow these simple example steps.
 <!-- PROJECT REQUIREMENTS -->
 ## Project Requirements
 1. Intial Setup
-- [ x ] Set up body-parsing middleware with the body-parser package.
-- [ x ] Set up CORS middleware with the cors package. You can use the default settings.
-- [ x ] Mount the existing apiRouter at /api. This router will serve as the starting point for all your API routes.
-- [ x ] Start the server listening on the provided PORT. Make sure to use the PORT constant and not a hard-coded number, as this is required for tests to run.
+- [x] Set up body-parsing middleware with the body-parser package.
+- [x] Set up CORS middleware with the cors package. You can use the default settings.
+- [x] Mount the existing apiRouter at /api. This router will serve as the starting point for all your API routes.
+- [x] Start the server listening on the provided PORT. Make sure to use the PORT constant and not a hard-coded number, as this is required for tests to run.
 
 2. Minions Routes
-- [ x ] GET /api/minions to get an array of all minions.
-- [ x ] POST /api/minions to create a new minion and save it to the database.
-- [ x ] GET /api/minions/:minionId to get a single minion by id.
-- [ x ] PUT /api/minions/:minionId to update a single minion by id.
-- [ x ] DELETE /api/minions/:minionId to delete a single minion by id.
+- [x] GET /api/minions to get an array of all minions.
+- [x] POST /api/minions to create a new minion and save it to the database.
+- [x] GET /api/minions/:minionId to get a single minion by id.
+- [x] PUT /api/minions/:minionId to update a single minion by id.
+- [x] DELETE /api/minions/:minionId to delete a single minion by id.
 
 3. Ideas Routes
 - [x] GET /api/ideas to get an array of all ideas.
